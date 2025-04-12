@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenShop Catalog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1>GreenShop Catalog</h1>
+        <nav>
+          <a href="edukasi.html">Edukasi</a>
+          <a href="about.html">Tentang Kami</a>
+        </nav>
+      </div>
+      <div class="hero">
+        <h2>Belanja Ramah Lingkungan<br />Dimulai dari Sini</h2>
+      </div>
+    </header>
+
+    <main>
+      <section class="catalog-section">
+        <h3>Katalog Produk</h3>
+        <div class="filters">
+          <select name="kategori" id="kategori">
+            <option value="">Semua Kategori</option>
+            <option value="baju">Baju</option>
+            <option value="aksesoris">Aksesoris</option>
+            <option value="makanan">Makanan</option>
+          </select>
+
+          <select name="eco-tag" id="eco-tag">
+            <option value="">Semua Tag</option>
+            <option value="organik">Organik</option>
+            <option value="daur-ulang">Daur Ulang</option>
+            <option value="lokal">Lokal</option>
+          </select>
+        </div>
+
+        <div class="product-grid">
+          <div class="product-card">
+            <img
+              src="https://img.icons8.com/color/96/t-shirt.png"
+              alt="Kaos Organik"
+            />
+            <h4>Kaos Hijau Organik</h4>
+            <p class="price">Rp 150.000</p>
+            <span class="tag">Organik</span>
+            <p>Terbuat dari katun organik, nyaman dan ramah lingkungan</p>
+            <a class="back-button" href="baju.html">Beli</a>
+          </div>
+
+          <div class="product-card" data-kategori="aksesoris">
+            <img
+              src="https://img.icons8.com/color/96/shopping-bag.png"
+              alt="Tas Anyaman Daun"
+            />
+            <h4>Tas Anyaman Daun</h4>
+            <p class="price">Rp 200.000</p>
+            <span class="tag">Bebas Plastik</span>
+            <p>Tas stylish yang dibuat dari daun pandan tanpa plastik</p>
+            <a class="back-button" href="aksesoris.html">Beli</a>
+          </div>
+
+          <div class="product-card" data-kategori="makanan">
+            <img
+              src="https://img.icons8.com/color/96/jam.png"
+              alt="Selai Buah Lokal"
+            />
+            <h4>Selai Buah Lokal</h4>
+            <p class="price">Rp 45.000</p>
+            <span class="tag">Lokal</span>
+            <p>Selai tradisional yang dibuat dari buah lokal pilihan</p>
+            <a class="back-button" href="makanan.html">Beli</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="filter-kategori.js"></script>
+  <script src="catalog-navigation.js"></script>
+</html>
