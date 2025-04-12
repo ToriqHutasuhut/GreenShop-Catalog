@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenShop - Tentang Kami</title>
+    <style>
+      /* Reset dasar */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana,
+          sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f8f9fa;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        padding: 30px;
+        margin-bottom: 30px;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        color: #2e7d32;
+        margin-bottom: 15px;
+        border-bottom: 3px solid #a5d6a7;
+        padding-bottom: 15px;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+        color: #2e7d32;
+        margin: 30px 0 15px 0;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #a5d6a7;
+      }
+
+      p {
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+      }
+
+      ul {
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 15px;
+      }
+
+      li::before {
+        content: "•";
+        color: #2e7d32;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+      }
+
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        font-weight: bold;
+        color: #2e7d32;
+        font-size: 1.2rem;
+      }
+
+      .highlight {
+        background-color: #e8f5e9;
+        padding: 2px 5px;
+        border-radius: 3px;
+      }
+
+      .back-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 20px;
+        background-color: #2e7d32;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .back-button:hover {
+        background-color: #1b5e20;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* Responsive design */
+      @media screen and (max-width: 768px) {
+        body {
+          padding: 15px;
+        }
+
+        .container {
+          padding: 20px;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        p,
+        li {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Tentang GreenShop</h1>
+      </header>
+
+      <section>
+        <p>
+          GreenShop adalah pelopor platform e-commerce yang berdedikasi
+          menyediakan produk-produk ramah lingkungan dan berkelanjutan sejak
+          2020. Berawal dari kepedulian terhadap dampak konsumsi berlebihan
+          terhadap lingkungan, kami hadir sebagai solusi bagi masyarakat
+          Indonesia yang ingin berkontribusi positif dalam menjaga kelestarian
+          bumi.
+        </p>
+      </section>
+
+      <section>
+        <h2>Visi & Misi</h2>
+        <p><strong>Visi:</strong></p>
+        <p>
+          Menjadi platform terdepan yang menghubungkan konsumen dengan produk
+          ramah lingkungan berkualitas, mendorong gaya hidup berkelanjutan di
+          seluruh Indonesia.
+        </p>
+        <p><strong>Misi:</strong></p>
+        <ul>
+          <li>
+            Menyediakan akses mudah ke produk ramah lingkungan dengan harga
+            terjangkau
+          </li>
+          <li>
+            Mendukung pengrajin dan produsen lokal yang menerapkan praktik
+            produksi berkelanjutan
+          </li>
+          <li>
+            Mengedukasi masyarakat tentang pentingnya konsumsi bertanggung jawab
+          </li>
+          <li>Mengurangi jejak karbon dan limbah dalam rantai pasok kami</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Komitmen Kami</h2>
+        <p>
+          Setiap produk di katalog GreenShop telah melalui proses seleksi ketat
+          berdasarkan kriteria:
+        </p>
+        <ul>
+          <li>Terbuat dari bahan ramah lingkungan atau daur ulang</li>
+          <li>Diproduksi dengan praktik yang berkelanjutan dan etis</li>
+          <li>
+            Menggunakan kemasan minimal dan dapat dikompos atau didaur ulang
+          </li>
+          <li>Mendukung pelaku ekonomi lokal dan keadilan sosial</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Tim Kami</h2>
+        <p>
+          GreenShop didirikan oleh sekelompok anak muda pecinta lingkungan yang
+          memiliki latar belakang beragam dalam bidang lingkungan, teknologi,
+          dan bisnis. Saat ini, tim kami telah berkembang menjadi
+          <span class="highlight">15 orang</span> yang tersebar di Jakarta dan
+          Yogyakarta, dengan jaringan lebih dari
+          <span class="highlight">50 pengrajin dan produsen lokal</span> di
+          seluruh Indonesia.
+        </p>
+      </section>
+
+      <section>
+        <h2>Bergabunglah dalam Perubahan</h2>
+        <p>
+          Dengan berbelanja di GreenShop, Anda tidak hanya mendapatkan produk
+          berkualitas, tetapi juga menjadi bagian dari gerakan perubahan menuju
+          Indonesia yang lebih hijau dan berkelanjutan. Mari bersama-sama
+          menciptakan dampak positif bagi bumi kita, satu produk ramah
+          lingkungan pada satu waktu.
+        </p>
+      </section>
+
+      <div class="footer">
+        GreenShop - Belanja Ramah Lingkungan, Dimulai dari Sini
+      </div>
+
+      <a href="index.html" class="back-button">← Kembali ke Beranda</a>
+    </div>
+  </body>
+</html>

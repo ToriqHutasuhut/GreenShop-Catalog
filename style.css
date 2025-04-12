@@ -1,0 +1,138 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  background-color: #f9f9f4;
+  color: #1f3b2c;
+}
+
+header {
+  background-color: #77a47c;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero h2 {
+  font-size: 2em;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 12px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.catalog-section {
+  padding: 40px 20px;
+}
+
+.catalog-section h3 {
+  font-size: 1.5em;
+}
+
+.filters {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.filters select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.product-card h4 {
+  margin: 10px 0 5px;
+}
+
+.product-card .price {
+  font-weight: bold;
+  color: #333;
+}
+
+.product-card .tag {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 4px 10px;
+  background-color: #e6dfc8;
+  border-radius: 8px;
+  font-size: 0.8em;
+}
+
+.wa-button {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #1d5c3a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.back-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #dbe9d2;
+  color: #1f3b2c;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #c0ddba;
+}
